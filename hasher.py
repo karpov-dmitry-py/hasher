@@ -56,7 +56,7 @@ class Hasher:
 
         if isinstance(data, str) and len(data) == 1:
             result = ord(data)
-            self.log(f'ord({data}) = {result}')
+            # self.log(f'ord({data}) = {result}')
             return result
 
         if isinstance(data, Iterable):
@@ -70,7 +70,7 @@ class Hasher:
             return result
 
         result = ord(str(data))
-        self.log(f'ord({data}) = {result}')
+        # self.log(f'ord({data}) = {result}')
         return result
 
     def get_result(self):
