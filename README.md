@@ -1,0 +1,2 @@
+# hasher
+arbitrary objects hasher
